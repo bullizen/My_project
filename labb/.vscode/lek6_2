@@ -1,0 +1,22 @@
+# containrar vi sett
+#
+lst = [1, 2, 3]  # list
+tup = (1, 2, 3)  # tuple
+dictionary = {"bil": "mazda", "godis": "choklad"}
+
+# set (en mangd)
+mangd = {"a", "b", "c"}
+
+if "a" in mangd:
+    print("a finns")
+
+
+h_lst = ["hej", "hejsan", "yo", "laget", "yo"]
+h_lst_uniq = list(set(h_lst))
+
+
+# dict som en mangd (icke rekommenderat)
+dm = {"hej": True, "hejsan": True}
+
+# list comprehension for set
+a = {x for x in "abracadabra" if x not in "abc"}
